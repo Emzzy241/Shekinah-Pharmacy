@@ -79,3 +79,11 @@
 .menu-bar ul li:hover .subMenu ul li a:hover{
     color: #b2ff08;
 }
+
+/* Styling the right arrow  */
+
+.fa-arrow-right{
+    float: right;
+}
+
+/* Styiling the second sub menu for the drugs  */
