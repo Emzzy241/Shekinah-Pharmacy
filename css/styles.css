@@ -190,6 +190,7 @@ header label{
         right: 0;
         background: #fff;
         border-top: 1px solid rgb(0, 0, 0.1);
+        display: none;
     }
     header .navbar ul li{
         width: 100%;
@@ -202,5 +203,15 @@ header label{
 
     header .navbar ul li ul li{
         background: #eee;
+    }
+
+    
+    header .navbar ul li ul li ul{
+        width: 100%;
+        left: 0;
+    }
+
+    #menu-bar:checked ~ .navbar{
+        display: initial;
     }
 }
