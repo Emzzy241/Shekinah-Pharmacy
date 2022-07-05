@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Styling the menu bar  */
@@ -15,10 +19,23 @@
     display: inline-flex;
     list-style: none;
     color: #fff;
+    
+    
 }
 
 .menu-bar ul li{
     width: 120px;
-    margin: 15px;
+    margin: 10px;
     padding: 15px;
+}
+
+.menu-bar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+    background: #2bab0d;
+    border-radius: 3px;
+    
 }
