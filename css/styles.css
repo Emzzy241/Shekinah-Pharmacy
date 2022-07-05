@@ -498,11 +498,61 @@ section {
     padding: 1rem 0;
 }
 
+/* making 4 grid templates this time around  */
+
+.combat1 .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+    gap: 1.5rem;
+}
+
+.combat1 .box-container .box {
+    padding: 3rem 2rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    outline: var(--outline);
+    outline-offset: -1rem;
+    text-align: center;
+}
+
+.combat1 .box-container .box:hover {
+    outline: var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.combat1 .box-container .box img {
+    margin: 1rem 0;
+    height: 15rem;
+}
+
+.combat1 .box-container .box h3 {
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8;
+}
+
+.combat1 .box-container .box p {
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+/* Styling another section for get prescriptions  */
 
 
+#get{
+    text-align: center;
+}
 
-
-
+#get .col-md-6 h4{
+    font-size: 2.6rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--black);
+    margin-top: 3.5rem;
+}
 
 
 
