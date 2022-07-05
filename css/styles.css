@@ -408,6 +408,54 @@ section {
     color: var(--green);
 }
 
+/* The swiper image part of our website  */
+
+
+.offers .offers-slider {
+    padding: 1rem;
+}
+
+.brushes .offers-slider:first-child {
+    margin-bottom: 2rem;
+}
+
+.offers .offers-slider .box {
+    background: #fff;
+    border-radius: 0.5rem;
+    text-align: center;
+    padding: 3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: 0.2s linear;
+}
+
+
+.offers .offers-slider .box:hover {
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+
+.offers .offers-slider .box img {
+    height: 20rem;
+}
+
+.offers .offers-slider .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.offers .offers-slider .box .price {
+    font-size: 2rem;
+    color: var(--light-color);
+    padding: 0.5rem 0;
+}
+
+.offers .offers-slider .box .stars i {
+    font-size: 1.7rem;
+    color: var(--orange);
+    padding: 0.5rem 0;
+}
 
 
 
