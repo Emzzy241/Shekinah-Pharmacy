@@ -554,7 +554,10 @@ section {
     margin-top: 3.5rem;
 }
 
-
+/* Styling the brands we sell section  */
+.brands .col-md-2 img{
+    border-radius: 50%;
+}
 
 
 
