@@ -116,6 +116,9 @@ header label{
     display: none;
 }
 
+header .fa-arrow-right{
+    float: right;
+}
 
 
 
