@@ -165,6 +165,8 @@ section {
     background-size: cover;
     padding-top: 17rem;
     padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
 
 }
 
@@ -191,9 +193,185 @@ section {
 
 
 
+.banner .content2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/istockphoto-1206800961-612x612.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
+
+}
+
+.banner .content2 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content2 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content2 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content2 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
+.banner .content3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/istockphoto-1323476855-170667a.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
+
+}
+
+.banner .content3 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content3 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content3 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content3 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+.banner .content4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/istockphoto-1206800961-612x612.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
+
+}
+
+.banner .content4 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content4 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content4 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content4 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+.banner .content5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/istockphoto-1206800961-612x612.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
+
+}
+
+.banner .content5 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content5 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content5 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content5 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
+
+
+.banner .content6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/istockphoto-1182636594-170667a.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    height: 700px;
+    width: 100%;
+
+}
+
+.banner .content6 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content6 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content6 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content6 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
+}
 
 
 
