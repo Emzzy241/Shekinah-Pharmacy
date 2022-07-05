@@ -153,6 +153,14 @@ section {
     color: #fff;
 }
 
+.heading{
+    text-align: center;
+    padding: 2rem 0;
+    padding-bottom: 3rem;
+    font-size: 3.5rem;
+    color: var(--black);
+}
+
 /* The homepage image  styling */
 
 
