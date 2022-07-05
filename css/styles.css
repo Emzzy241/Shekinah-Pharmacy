@@ -13,15 +13,19 @@
 }
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     text-transform: capitalize;
     text-decoration: none;
-    transition: all 0.2s linear ;
-    
+    transition: all 0.2s linear;
+
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Styling the menu bar  */
@@ -40,11 +44,11 @@ body {
     background-position: center;
 }
 
-header{
+header {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
-    right:0;
+    right: 0;
     background: #fff;
     box-shadow: var(--box-shadowNav);
     padding: 0px 7%;
@@ -54,70 +58,135 @@ header{
     z-index: 1000;
 }
 
-header .logo{
+header .logo {
     font-weight: bolder;
     font-size: 25px;
     color: var(--black);
 }
 
-header .navbar ul{
+header .navbar ul {
     list-style: none;
 }
 
-header .navbar ul li{
+header .navbar ul li {
     position: relative;
     float: left;
 }
 
-header .navbar ul li a{
+header .navbar ul li a {
     font-size: 20px;
     padding: 20px;
     color: var(--green);
     display: block;
 }
 
-header .navbar ul li a:hover{
+header .navbar ul li a:hover {
     background: var(--green);
     color: #fff;
 }
 
-header .navbar ul li ul{
+header .navbar ul li ul {
     position: absolute;
     left: 0;
     width: 200px;
-    background: #fff ;
+    background: #fff;
     display: none;
 }
 
-header .navbar ul li ul li{
+header .navbar ul li ul li {
     width: 100%;
     border-top: 1px solid rgb(0, 0, 0.1);
 }
 
-header .navbar ul li ul li ul{
+header .navbar ul li ul li ul {
     left: 200px;
     top: 0;
 }
 
 
-header .navbar ul li:focus-within > ul,
-header .navbar ul li:hover > ul{
+header .navbar ul li:focus-within>ul,
+header .navbar ul li:hover>ul {
     display: initial;
 }
 
-.menu-bar{
+.menu-bar {
     display: none;
 }
 
-header label{
+header label {
     font-size: 20px;
     color: var(--light-color);
     cursor: pointer;
     display: none;
 }
 
-header .fa-arrow-right{
+header .fa-arrow-right {
     float: right;
+}
+
+/* Styling the banner section  */
+
+
+section {
+    padding: 2rem 9%;
+    
+}
+
+
+
+/* button all section  */
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(30, 85, 30);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+}
+
+.btn:hover {
+    background: var(--green);
+    color: #fff;
+}
+
+/* The homepage image  styling */
+
+
+.banner .content1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/banner-bg.webp) no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+
+}
+
+.banner .content1 .talk {
+    text-align: center;
+    width: 60rem;
+}
+
+.banner .content1 .talk h2 {
+    color: var(--black);
+    font-size: 3rem;
+}
+
+.banner .content1 .talk h2 span {
+    color: var(--green);
+}
+
+.banner .content1 .talk p {
+    color: var(--light-color);
+    font-size: 1.7rem;
+    padding: 1rem 0;
+    line-height: 1.8;
 }
 
 
@@ -166,27 +235,17 @@ header .fa-arrow-right{
 
 
 
+@media(max-width: 991px) {
 
-
-
-
-
-
-
-
-
-
-@media(max-width: 991px){
-
-    header{
+    header {
         padding: 20px;
     }
 
-    header label{
+    header label {
         display: initial;
     }
 
-    header .navbar{
+    header .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -195,26 +254,35 @@ header .fa-arrow-right{
         border-top: 1px solid rgb(0, 0, 0.1);
         display: none;
     }
-    header .navbar ul li{
+
+    header .navbar ul li {
         width: 100%;
 
     }
-    header .navbar ul li ul{
+
+    header .navbar ul li ul {
         position: relative;
         width: 100%;
     }
 
-    header .navbar ul li ul li{
+    header .navbar ul li ul li {
         background: #eee;
     }
 
-    
-    header .navbar ul li ul li ul{
+
+    header .navbar ul li ul li ul {
         width: 100%;
         left: 0;
     }
 
-    #menu-bar:checked ~ .navbar{
+    #menu-bar:checked~.navbar {
         display: initial;
     }
+
+    /* The slider image part  */
+    section {
+        padding: 2rem;
+    }
+
+
 }
