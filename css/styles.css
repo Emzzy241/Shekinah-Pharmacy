@@ -6,84 +6,21 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: all 0.2s linear ;
+    
 }
 
 /* Styling the menu bar  */
 
-.menu-bar{
-    background: rgb(0, 100, 0);
-    text-align: center;
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
 }
 
-.menu-bar ul{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-    
-    
+body {
+    background-color: #eee;
 }
-
-.menu-bar ul li{
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
-}
-
-.menu-bar ul li a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.active, .menu-bar ul li:hover{
-    background: #2bab0d;
-    border-radius: 3px;
-    
-}
-
-.menu-bar .fa, .fa-solid{
-    margin-right: 8px;
-}
-
-/* Styling the dropdown for products  */
-.subMenu{
-    display: none;
-}
-
-.menu-bar ul li:hover .subMenu{
-    display: block;
-    position: absolute;
-    background: rgb(0, 100, 0);
-    margin-top: 15px;
-    margin-left: -15px;
-}
-
-.menu-bar ul li:hover .subMenu ul{
-    display: block;
-    margin: 10px;
-
-}
-
-.menu-bar ul li:hover .subMenu ul li{
-    width: 150px;
-    padding: 10px;
-    border-bottom: 1px dotted #fff;
-    background: transparent;
-    border-radius: 0;
-    text-align: left;
-}
-
-.menu-bar ul li:hover .subMenu ul li:last-child{
-    border-bottom: none;
-}
-
-.menu-bar ul li:hover .subMenu ul li a:hover{
-    color: #b2ff08;
-}
-
-/* Styling the right arrow  */
-
-.fa-arrow-right{
-    float: right;
-}
-
-/* Styiling the second sub menu for the drugs  */
