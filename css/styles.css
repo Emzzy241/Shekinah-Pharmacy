@@ -153,7 +153,7 @@ section {
     color: #fff;
 }
 
-.heading{
+.heading h2{
     text-align: center;
     padding: 2rem 0;
     padding-bottom: 3rem;
@@ -162,7 +162,7 @@ section {
 }
 
 /* The homepage image  styling */
-
+/* all banner images  */
 
 .banner .content1 {
     display: flex;
@@ -382,9 +382,30 @@ section {
 }
 
 
+/* The what we do section  */
 
+#features .col-md-2 a{
+    font-size: 1.8rem;
+    color: var(--orange);
+    
+}
 
+#features .col-md-2 a:hover{
+    color: var(--green);
+}
 
+#features .col-md-2 a i{
+    margin-left: 7rem;
+}
+
+#features .col-md-2 a p{
+    color: var(--black);
+    text-align: center
+}
+
+#features .col-md-2 p:hover{
+    color: var(--green);
+}
 
 
 
