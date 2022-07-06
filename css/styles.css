@@ -672,49 +672,76 @@ section {
 
 /* styling the footer  */
 
-.footer{
-    
-}
-.footer .container-fluid{
-    width: 100%;
-}
-.footer .col-md-2 h3{
-    line-height: 1.8;
+
+.footer .col-md-3 h3 {
+    line-height: 2.8;
     color: var(--black);
     font-size: 2.2rem;
     padding: 0.5rem 0;
     display: inline
 }
 
-.footer .col-md-2 p{
+.footer .col-md-3 p {
     line-height: 1.8;
     color: #fff;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 
-.footer .col-md-2 h5{
-    font-size: 2.0rem;
+.footer .col-md-3 h5 {
+    font-size: 2.2rem;
+    color: #fff;
 }
 
 
-.footer .col-md-2 .numLink h5{
+.footer .col-md-3 .numLink h5 {
     font-size: 2.0rem;
     color: #fff;
     padding: 0.5rem 0;
     display: inline
 }
 
-.footer .col-md-2 .numLink h5:hover{
+.footer .col-md-3 .numLink h5:hover {
     color: var(--black);
     text-decoration: underline;
-    
+
 }
 
+/* Styling social media fonts  */
 
+.footer .col-md-3 .socialLinks a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: var(--black);
+    background: #eee;
+    text-align: center;
+}
 
+.footer .col-md-3 .socialLinks a:hover {
+    background: var(--green);
+    color: #fff;
+}
 
+.footer .col-md-3 .paymentImage {
+    margin-top: 2rem;
+    height: 3rem;
+}
 
+.footer .maker{
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #fff;
+    border-top: var(--border);
+}
 
+.footer .maker span{
+    color: var(--black);
+}
 
 
 
@@ -773,7 +800,7 @@ section {
         display: initial;
     }
 
-   
+
     section {
         padding: 2rem;
     }
@@ -812,8 +839,9 @@ section {
     .heading h2 {
         font-size: 2.5rem;
     }
-    .footer{
+
+    .footer {
         text-align: center;
     }
-    
+
 }
