@@ -683,6 +683,7 @@ section {
     color: var(--black);
     font-size: 2.2rem;
     padding: 0.5rem 0;
+    display: inline
 }
 
 .footer .col-md-2 p{
@@ -691,6 +692,23 @@ section {
     font-size: 1.1rem;
 }
 
+.footer .col-md-2 h5{
+    font-size: 2.0rem;
+}
+
+
+.footer .col-md-2 .numLink h5{
+    font-size: 2.0rem;
+    color: #fff;
+    padding: 0.5rem 0;
+    display: inline
+}
+
+.footer .col-md-2 .numLink h5:hover{
+    color: var(--black);
+    text-decoration: underline;
+    
+}
 
 
 
