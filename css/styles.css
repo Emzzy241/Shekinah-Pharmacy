@@ -670,8 +670,20 @@ section {
     padding: 0.5rem 0;
 }
 
+/* styling the footer  */
 
-
+.footer{
+    
+}
+.footer .container-fluid{
+    width: 100%;
+}
+.footer.col-md-2 h3{
+    line-height: 1.8;
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: 0.5rem 0;
+}
 
 
 

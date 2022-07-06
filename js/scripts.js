@@ -43,3 +43,7 @@ var swiper = new Swiper(".review-slider", {
       },
     },
   });
+
+  
+//   <!-- The footer section begins  -->hkion
+// Styling the first part of our footer
