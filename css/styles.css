@@ -153,6 +153,28 @@ section {
     background: var(--green);
     color: #fff;
 }
+/* 
+Styling the other button for textalign center */
+
+.btn1 {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 3rem;
+    font-size: 1.7rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid rgb(30, 85, 30);
+    color: var(--black);
+    cursor: pointer;
+    background: none;
+    margin-left: 9.3rem;
+}
+
+.btn1:hover {
+    background: var(--green);
+    color: #fff;
+}
+
+
 
 .heading h2 {
     text-align: center;
@@ -729,7 +751,7 @@ section {
     height: 3rem;
 }
 
-.footer .maker{
+.footer .maker {
     text-align: center;
     margin-top: 2rem;
     padding: 1rem;
@@ -739,9 +761,92 @@ section {
     border-top: var(--border);
 }
 
-.footer .maker span{
+.footer .maker span {
     color: var(--black);
 }
+
+
+/* Styling the anti'malarial page  */
+.anti {
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    text-align: left;
+}
+
+.anti .first h2 {
+    font-size: 2.5rem;
+    line-height: 6.5rem;
+    color: var(--black);
+}
+
+.anti .first p{
+    font-size: 1.4rem;
+    line-height: 4.5rem;
+    
+}
+
+.anti .first a h4 {
+    font-size: 1.9rem;
+    display: inline-flex;
+    color: var(--black);
+}
+
+
+.anti .first a h4:hover {
+    color: var(--black);
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.anti .first h4 {
+    font-size: 1.7rem;
+    line-height: 4.0rem;
+}
+
+/* The image showing drugs we seell  */
+
+.anti .col-md-3 h6{
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+}
+
+
+.anti .col-md-3 p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3.3rem;
+}
+
+.anti .col-md-3 .stars{
+    color: var(--orange);
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
