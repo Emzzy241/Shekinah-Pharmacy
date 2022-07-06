@@ -827,6 +827,66 @@ Styling the other button for textalign center */
 }
 
 
+/* styling the other containers  */
+.anti1 {
+    padding-top: 8rem;
+    padding-bottom: 10rem;
+    width: 100%;
+    text-align: left;
+}
+
+.anti1 .first h2 {
+    font-size: 2.5rem;
+    line-height: 6.5rem;
+    color: var(--black);
+}
+
+.anti1 .first p{
+    font-size: 1.4rem;
+    line-height: 4.5rem;
+    
+}
+
+.anti1 .first a h4 {
+    font-size: 1.9rem;
+    display: inline-flex;
+    color: var(--black);
+}
+
+
+.anti .first a h4:hover {
+    color: var(--black);
+    text-decoration: underline;
+    font-weight: 550;
+}
+
+.anti1 .first h4 {
+    font-size: 1.7rem;
+    line-height: 4.0rem;
+}
+
+/* The image showing drugs we seell  */
+
+.anti1 .col-md-3 h6{
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 3.4rem;
+}
+
+
+.anti1 .col-md-3 p{
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3.3rem;
+}
+
+.anti1 .col-md-3 .stars{
+    color: var(--orange);
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2.7rem;
+}
+
 
 
 
