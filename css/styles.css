@@ -878,6 +878,7 @@ Styling the other button for textalign center */
     font-size: 1.6rem;
     text-align: center;
     line-height: 3.3rem;
+    color: var(--black);
 }
 
 .anti1 .col-md-3 .stars{
