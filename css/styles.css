@@ -811,6 +811,7 @@ Styling the other button for textalign center */
     text-align: center;
     font-size: 2.2rem;
     line-height: 3.4rem;
+    color: var(--black);
 }
 
 
@@ -872,6 +873,7 @@ Styling the other button for textalign center */
     text-align: center;
     font-size: 2.2rem;
     line-height: 3.4rem;
+    color: var(--black);
 }
 
 
