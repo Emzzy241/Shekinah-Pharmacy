@@ -153,6 +153,7 @@ section {
     background: var(--green);
     color: #fff;
 }
+
 /* 
 Styling the other button for textalign center */
 
@@ -180,7 +181,7 @@ Styling the other button for textalign center */
     text-align: center;
     padding: 2rem 0;
     padding-bottom: 3rem;
-    font-size: 3.5rem;
+    font-size: 2.8rem;
     color: var(--black);
 }
 
@@ -569,7 +570,7 @@ Styling the other button for textalign center */
 }
 
 #get .col-md-6 h4 {
-    font-size: 2.6rem;
+    font-size: 2.5rem;
     text-align: center;
     font-weight: bold;
     color: var(--black);
@@ -780,10 +781,10 @@ Styling the other button for textalign center */
     color: var(--black);
 }
 
-.anti .first p{
+.anti .first p {
     font-size: 1.4rem;
     line-height: 4.5rem;
-    
+
 }
 
 .anti .first a h4 {
@@ -806,20 +807,20 @@ Styling the other button for textalign center */
 
 /* The image showing drugs we seell  */
 
-.anti .col-md-3 h6{
+.anti .col-md-3 h6 {
     text-align: center;
     font-size: 2.2rem;
     line-height: 3.4rem;
 }
 
 
-.anti .col-md-3 p{
+.anti .col-md-3 p {
     font-size: 1.6rem;
     text-align: center;
     line-height: 3.3rem;
 }
 
-.anti .col-md-3 .stars{
+.anti .col-md-3 .stars {
     color: var(--orange);
     text-align: center;
     font-size: 1.4rem;
@@ -841,10 +842,10 @@ Styling the other button for textalign center */
     color: var(--black);
 }
 
-.anti1 .first p{
+.anti1 .first p {
     font-size: 1.4rem;
     line-height: 4.5rem;
-    
+
 }
 
 .anti1 .first a h4 {
@@ -867,21 +868,21 @@ Styling the other button for textalign center */
 
 /* The image showing drugs we seell  */
 
-.anti1 .col-md-3 h6{
+.anti1 .col-md-3 h6 {
     text-align: center;
     font-size: 2.2rem;
     line-height: 3.4rem;
 }
 
 
-.anti1 .col-md-3 p{
+.anti1 .col-md-3 p {
     font-size: 1.6rem;
     text-align: center;
     line-height: 3.3rem;
     color: var(--black);
 }
 
-.anti1 .col-md-3 .stars{
+.anti1 .col-md-3 .stars {
     color: var(--orange);
     text-align: center;
     font-size: 1.4rem;
@@ -970,7 +971,14 @@ Styling the other button for textalign center */
     section {
         padding: 2rem;
     }
-    
+    #get .col-md-6 h4 {
+        font-size: 1.8rem;
+        text-align: center;
+        font-weight: bold;
+        color: var(--black);
+        margin-top: 3.5rem;
+    }
+
 
 
 }
@@ -1004,11 +1012,13 @@ Styling the other button for textalign center */
     }
 
     .heading h2 {
-        font-size: 2.5rem;
+        font-size: 1.3rem;
     }
 
     .footer {
         text-align: center;
     }
+
+    
 
 }
