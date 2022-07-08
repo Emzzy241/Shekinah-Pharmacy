@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" href="./img/istockphoto-1177384544-612x612.jpg">
 
+    <!-- linking jQuery: used for the scroll up button  -->
+    <script src="./js/jquery-3.6.0.js"></script>
+
     <!-- Font aweseome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
@@ -73,6 +76,15 @@
 
 
     <!-- The navigation section ends  -->
+
+    <!-- The scroll up button section begins  -->
+
+    
+    <a id="button"> 
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- The scroll up button section ends  -->
 
 
     <!-- The three cousins drug section left side begins  -->
@@ -421,6 +433,31 @@
 
 
     <!-- The wait again section  ends-->
+
+    
+
+    <!-- the script for our scroll up button begins -->
+
+
+    <script type="text/javascript">
+        var btn = $("#button");
+        $(window).scroll(function (){
+            if($(window).scrollTop() > 300){
+                btn.addClass("show");
+            }else{
+                btn.removeClass("show")
+            }
+        });
+
+        btn.on("click", function(e){
+            e.preventDefault();
+            $("html, body").animate({scrollTop:0}, "300");
+        });
+    </script>
+
+
+    
+    <!-- the script for our scroll up button ends -->
 
 
 

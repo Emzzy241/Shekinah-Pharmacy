@@ -406,25 +406,41 @@ Styling the other button for textalign center */
 }
 
 /* Styling the scroll up button section  */
-#button{
+#button {
     display: inline-block;
     background-color: var(--green);
-    width: 4rem;
-    height: 4rem;
-    line-height: 2.8rem;
+    width: 4.5rem;
+    height: 4.8rem;
+    line-height: 3.4rem;
     text-align: center;
     border-radius: 4px;
     position: fixed;
     bottom: 30px;
     right: 30px;
     transition: background-color 0.3s;
-    opacity: 0.5s,visibility 0.5s;
-    opacity: 1;
+    opacity: 0.5s, visibility 0.5s;
+    opacity: 0;
     z-index: 1000;
-    
+}
+
+#button i{
+    color: white;
+    font-size: 3.5rem;
+}
+
+#button:hover{
+    cursor: pointer;
+    background-color: var(--black);
+}
+
+#button.show{
+    opacity: 1;
 
 }
 
+/* The scroll up button ends  */
+
+/* The styling for the scroll up button ends here  */
 
 /* The what we do section  */
 
@@ -993,6 +1009,7 @@ Styling the other button for textalign center */
     section {
         padding: 2rem;
     }
+
     #get .col-md-6 h4 {
         font-size: 1.8rem;
         text-align: center;
@@ -1041,6 +1058,16 @@ Styling the other button for textalign center */
         text-align: center;
     }
 
-    
+    /* media query for the scroll up button */
+    @media (min-width:500px){
+        .contentScroll{
+            width: 43%;
+        }
+        #button{
+            margin: 30px;
+        }
+    }
+
+
 
 }

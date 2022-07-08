@@ -8,9 +8,13 @@
     <title>Shekinah Pharmacy</title>
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="icon" href="./img/istockphoto-1182636594-170667a.jpg">
-
+    
+    <!-- linking jQuery: used for the scroll up button  -->
+    <script src="./js/jquery-3.6.0.js"></script>
+    
     <!-- swiper top link  -->
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
 
     <!-- custom css link  -->
     <link rel="stylesheet" href="./css/styles.css">
@@ -146,14 +150,16 @@
 
     <!-- The banner image section ends  -->
 
-    <a id="button">
+
+
+    <!-- The scroll up button section begins  -->
+
+    <a id="button"> 
         <i class="fas fa-angle-up"></i>
     </a>
-    <div class="contentScroll">
-        <h1>Scroll</h1>
-        <h2>Back to top button</h2>
-        <h3>scroll down the page</h3>
-    </div>
+    
+
+    <!-- The scroll up button section ends  -->
 
 
 
@@ -832,6 +838,29 @@
 
     <!-- The blog section ends  -->
 
+
+    <!-- the script for our scroll up button begins -->
+
+
+    <script type="text/javascript">
+        var btn = $("#button");
+        $(window).scroll(function (){
+            if($(window).scrollTop() > 300){
+                btn.addClass("show");
+            }else{
+                btn.removeClass("show")
+            }
+        });
+
+        btn.on("click", function(e){
+            e.preventDefault();
+            $("html, body").animate({scrollTop:0}, "300");
+        });
+    </script>
+
+
+    
+    <!-- the script for our scroll up button ends -->
 
 
 
