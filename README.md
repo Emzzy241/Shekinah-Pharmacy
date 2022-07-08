@@ -2,7 +2,7 @@
 
 ### made by Mojiboye Emmanuel Oluwole
 
-#### your favorite drugstore 
+#### your favorite Drug Store 
 
 ### Technologies Used
 * Bootstrap
@@ -24,7 +24,7 @@ _Note: the website is designed to run on a web browser just be sure you have one
 _As at the launching of this Project there are zero bugs in it. But if you do find a bug in it, be sure to notify me via my various social media handles below_
 
 ## WEBSITE LINK
-https://emzzy241.github.io/Moneyworth-Superstores/
+https://emzzy241.github.io/Shekinah-Pharmacy/
 
 ## License 
 Licensed under the GNU General Public License 
